@@ -11,6 +11,6 @@ int main(void)
 	    char c;
 
 	        c = 'A';
-		    printf("%c: %c\d", 1, _isupper(c));
+		    printf("%c: %d\n", 1, _isupper(c));
 		                return (0);
 }
