@@ -3,7 +3,7 @@
 
 /**
  * main - check the code.
- *
+ * _isupper - checks for uppercase character 
  * Return: Always 0.
  */
 int main(void)
@@ -11,8 +11,6 @@ int main(void)
 	    char c;
 
 	        c = 'A';
-		    printf("%c: %d\n", 1, _isupper(c));
-		        c = 'a';
-			    printf("%c: %d\n", c, _isupper(c));
-			        return (0);
+		    printf("%c: %c\d", 1, _isupper(c));
+		                return (0);
 }
