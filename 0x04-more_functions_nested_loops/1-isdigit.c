@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * main - check the code
  *
@@ -11,7 +12,6 @@ int main(void)
 	char c;
 
 	c= '0';
-:x
 
 	     c='a';
 	         printf("\nResult when non-numeric character is passed: %d", _isdigit(c));
