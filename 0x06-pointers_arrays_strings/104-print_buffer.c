@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_buffer - Prints a buffer 10 bytes per line, starting with the position of first byte of
- * 		  the line in hexadecimal(8 chars), starting with 0,then 
- * 		  displaying printable charcaters.
+ * print_buffer - Prints a buffer 10 bytes at a time, starting with
+ *                the byte position, then showing the hex content,
+ *                then displaying printable charcaters.
  * @b: The buffer to be printed.
  * @size: The number of bytes to be printed from the buffer.
  */
