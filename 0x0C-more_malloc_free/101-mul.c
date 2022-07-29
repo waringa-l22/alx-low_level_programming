@@ -33,7 +33,7 @@ int find_len(char *str)
  *              function exits with a status of 98.
  * Return: A pointer to the array.
  */
-char *create_xarray(int sze)
+char *create_xarray(int size)
 {
 	char *array;
 	int index;
@@ -74,7 +74,6 @@ char *iterate_zeroes(char *str)
  *              exits with a status of 98.
  * Return: The converted int.
  */
-
 int get_digit(char c)
 {
 	int digit = c - '0';
@@ -98,7 +97,6 @@ int get_digit(char c)
  * Description: If mult contains a non-digit, the function
  *              exits with a status value of 98.
  */
-
 void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
 	int mult_len, num, tens = 0;
@@ -144,7 +142,6 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
  * @next_prod: The next product to be added.
  * @next_len: The length of next_prod.
  */
-
 void add_nums(char *final_prod, char *next_prod, int next_len)
 {
 	int num, tens = 0;
@@ -190,7 +187,6 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  *              contains non-digits, the function exits with a status of 98.
  * Return: Always 0.
  */
-
 int main(int argc, char *argv[])
 {
 	char *final_prod, *next_prod;
